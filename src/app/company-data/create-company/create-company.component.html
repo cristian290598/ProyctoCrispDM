@@ -1,89 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>create-company</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" src="style.css">
+  <title>Document</title>
 </head>
-
 <body>
-
-    <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-sm-8 col-md-12 mx-auto">
-            <div class="card_Signin">
-              <div class="card ">
-                <div class="card_body text-center" style="padding:20px ;">
-                  <form action="">
-                    <h1 class="h3 mb-3 font-weight-normal">CREATE COMPANY</h1>
-
-                    <div style="padding: 10px;">
-                        <div style="display:flex; padding-right: 5px; ">
-                      
-                            <input class="form-control"  type="text" placeholder="NAME COMPANY" autocomplete="" required > 
-      
-                            <input class="form-control"  type="text" placeholder="TYPE COMPANY" autocomplete="" required>
-                                  
-                          </div>
-                          
-                          <div style="display:flex; ">
-                            <div class="form-group">
-                              <input class="form-control"  type="text" placeholder="DESCRIPTION" autocomplete="additional-name" required>
-                            <input class="form-control"  type="email" placeholder="Email" autocomplete="email" required>
-                            </div>
+  <div class="container" ></div>
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-md-12 mx-auto">
+        <div class="card_Signin">
           
-                           
-                          </div>
-          
-                          <div class="form-group">
-                            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
-                          </div>
-                          <div class="form-group">
-                            <input type="password" id="password" name="password" class="form-control" placeholder="Password"
-                              required>
-                          </div>
-                    </div>
-                    
-                    <div type="submit" class="button btn btn-lg btn-primary btn-block"> Save</div>
-                    
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
+            <section class="form-DataCompany">
+              <h1>¡CUÉNTANOS SOBRE TÚ EMPRESA! </h1>
+              
+              <label class="titles">Nombre Empresa:</label>
+              <input type="text" class="controls" name="nombre_Empresa" id="nombre_Empresa" placeholder="Digite el nombre de la empresa">
+              
+              <label class="titles"> NIT de la Empresa:</label>
+              <input type="number" class="controls" name="NIT_Empresa" id="NIT_Empresa" placeholder="Digite el NIT de la empresa">
+              
+              <label class="titles">Tipo de empresa:</label>
+              <input type="text" class="controls" name="tipo_Empresa" id="tipo_Empresa" placeholder="Tipo de empresa">
+              
+              <label class="titles">Número de Usuarios Activos:</label>
+              <input type="number" class="controls" name="usuarios_Activos" id="usuarios_Activos" placeholder="Digite el numero de usuarios activos en la empresa">
+              
+              <label class="titles">Teléfono:</label>
+              <input type="tel" class="controls" name="nombre_Empresa" id="nombre_Empresa" placeholder="Digite el Telefono de la empresa de la empresa">
+              
+              <label class="titles">Correo:</label>
+              <input type="email" class="controls" name="correo_Empresa" id="correo_Empresa" placeholder="Digite el correo del gerente de la empresa ">
+              
+              <label class="titles">Descripción:</label>
+              <textarea name="texto" class="controls" rows="4" cols="40" placeholder="Describa la empresa"></textarea>
+              
+              <label class="titles">Logo de la empresa:</label>
+              <input type="file" class="controls" name="logo_Empresa" id="logo_Empresa" placeholder="Adjuente el logo de la empresa">
+              
+              <button type="submit" class="button"> Guardar</button>
+            </section>
+            
         </div>
       </div>
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     
+    </div>
+  </div>
 </body>
-
 </html>
