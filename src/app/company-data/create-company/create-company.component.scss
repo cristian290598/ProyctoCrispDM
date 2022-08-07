@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.form-DataCompany{
+    width:700px;
+    background: #7B82F985;
+    padding:30px;
+    margin:auto;
+    margin-top:100px ;
+    border-radius:5px;
+    font-family:'calibri';
+    font-size:18px;
+}
+
+.titles{
+    font-size: 22px;
+}
+
+.form-DataCompany H1{
+    text-align: center;
+    padding:40px;
+
+}
+
+
+.controls {
+    width: 100%;
+    background:#E9EAE1 ;
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1.5px solid #7A08EC;
+    font-family:'calibri';
+    font-size:18px;
+}
+
+.button{
+    width:100%;
+    
+    background: #0614F9C9;
+    border:none;
+    padding: 15px;
+    color: white;
+    
+    font-size:18px;
+
+
+
+}
