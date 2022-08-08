@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.principal{
+    background: gray;
+    border:solid black;
+    overflow:scroll;
+    height:50%;
+    width:100%;
+    display:grid;
+    grid-template-columns:25% 75%
+}
+
+.div-izq{
+    margin:1.5rem;
+}  
+
+.form-DataMethodology{
+    background: #f8f8ffdf ;
+    padding:30px;
+    margin:1.5rem;
+    float:center;
+    border-radius:15px;
+    font-family:'calibri';
+    font-size:18px;
+    border: 1.5px solid black; 
+}
+
+.into-section{
+    float: center;
+    display:grid;
+    grid-template-columns:40% 60%;  
+}
+
+.controls {
+    background:#E9EAE1 ;
+    padding:10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1.5px solid gray;
+    font-family:'calibri';
+    font-size:18px;
+}
+
+.controls-sub{
+    background:#E9EAE1;  
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1.5px solid gray;
+    font-family:'calibri';
+    font-size:18px;
+}
+
+
+.titles{
+    font-size: 22px;
+    float:left
+}
+
+.sub-titles{
+    font-size: 22px;  
+}
+
+.form-DataMethodology H1 {
+    text-align: center;
+    padding:30px;
+}
+
+.table h4{
+    text-align:center;
+}
+
+.table{
+    overflow:scroll;
+    height:200px;
+    width:100%;
+    padding:40px;
+    text-align:center;
+}
+
+th,td{
+    border-style:dotted;
+}
+
+.button{
+    margin:1rem;
+    width:80%;
+    background:rgba(127, 82, 173, 0.816);
+    padding: 10px;
+    color: white;   
+    font-size:13px;
+    float:center
+}
+
+

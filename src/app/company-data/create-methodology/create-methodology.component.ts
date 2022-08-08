@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
+
 @Component({
   selector: 'app-create-methodology',
   templateUrl: './create-methodology.component.html',
@@ -7,7 +10,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CreateMethodologyComponent implements OnInit {
 
-  constructor() { }
+  
+  constructor() { 
+   }
 
   ngOnInit(): void {
   }
