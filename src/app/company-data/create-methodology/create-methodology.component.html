@@ -1,14 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
+
 <body>
   <div class="container">
+    <div class="principal">
 
+      <div class="div-izq">
+
+        <button type="submit" class="button"> CREAR METODOLOGÌA</button>
+        <button type="submit" class="button"> MODFIICAR METODOLOGÌA</button>
+        <button type="submit" class="button"> ELIMINAR METODOLOGÌA</button>
+
+      </div>
+      <!--divisiòn cuadro derecha-->
+      <div>
+
+        <section class="form-DataMethodology">
+          <h3 class="label"> PASO 1 </h3>
+          <h1> CREAR METODOLOGÍA </h1>
+          <!--nombre y descripciòn metologia-->
+          <div class="into-section">
+            <div>
+              <label class="titles">Nombre Metodologìa:</label><br><br>
+
+              <input type="text" class="controls" name="nombre_Metodologia" id="nombre_metodologia"
+                placeholder="metodologia a implementar">
+
+            </div>
+
+            <div>
+              <label class="sub-titles">Descripciòn Metodologìa:</label><br>
+              <textarea class="controls-sub" name="descr_Nivel" id="descr_Nivel" cols="30" rows="3"
+                placeholder="Descripcion de la metodología"></textarea>
+
+            </div>
+
+            <div>
+              <!--nombre y descripciòn niveles-->
+              <label class="titles">Agregar Nivel:</label>
+              <input type="text" class="controls" name="nombre_Nivel" id="nombre_Nivel"
+                placeholder="Nombre de subnivel ">
+            </div>
+
+            <div>
+              <label class="sub-titles">Descripciòn Nivel:</label>
+              <textarea class="controls-sub" name="descr_Nivel" id="descr_Nivel" cols="30" rows="3"
+                placeholder="Descripcion del nivel"></textarea>
+
+                <button class="button-center"> AGREGAR</button>
+            </div>
+
+          </div>
+
+          <!--selector sucesor  PENDIENTE-->
+
+
+           
+          <!--tabla contenido de la metodologìa-->
+          <div class="table">
+            <h4> Metodologías</h4>
+            <table class="" id="tabla-Metodologia">
+              <tr>
+                <th>Nombre_Metodología</th>
+                <th>Descripción_Metodología</th>
+                <th>Nombre_Nivel-1</th>
+                <th>Decripción_Nivel-1</th>
+                <th>Nombre_Nivel-2</th>
+                <th>Decripción_Nivel-2</th>
+                <th>Nombre_Nivel-3</th>
+                <th>Decripción_Nivel-3</th>
+                <th>Nombre_Nivel-4</th>
+                <th>Decripción_Nivel-4</th>
+                <th>Nombre_Nivel-5</th>
+                <th>Decripción_Nivel-5</th>
+                <th>Nombre_Nivel-6</th>
+                <th>Decripción_Nivel-6</th>
+              </tr>
+
+              <tr>
+                <th>CRISP-DM</th>
+                <th>Metodología para dar orientación a trabajos de minería de datos, la cual incluye descripciones de
+                  las fases y relacion entre las tareas</th>
+                <th>Comprensión del negocio</th>
+                <th></th>
+                <th>Comprensión de los datos</th>
+                <th></th>
+                <th>Preparación de los datos</th>
+                <th></th>
+                <th>Modelado</th>
+                <th></th>
+                <th>Evaluación</th>
+                <th></th>
+                <th>Implementación</th>
+                <th></th>
+              </tr>
+            </table>
+          </div>
+        </section>
+      </div>
+
+
+
+
+
+    </div>
   </div>
-</body>
 
+</body>

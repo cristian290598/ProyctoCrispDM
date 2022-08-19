@@ -28,6 +28,7 @@ export const ROUTES: RouteInfo[] = [
     submenu: [
       { path: '/company-data/create-company', title: 'CREATE COMPANY ', icon: 'ft-plus-square', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
       { path: '/company-data/create-methodology', title: 'CREATE METHODOLOGY', icon: 'ft-list', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
+      { path: '/company-data/create-proyect', title: 'CREATE PROYECT', icon: 'ft-list', class: '', badge: '', badgeClass: '', isExternalLink: false, submenu: [] },
     ]
   },
 

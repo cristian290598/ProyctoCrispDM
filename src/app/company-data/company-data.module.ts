@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+
 import { CommonModule } from '@angular/common';
 
 import { CompanyDataRoutingModule } from './company-data-routing.module';
@@ -6,16 +7,18 @@ import { CreateCompanyComponent } from './create-company/create-company.componen
 import { CreateMethodologyComponent } from './create-methodology/create-methodology.component';
 import { CreateProyectComponent } from './create-proyect/create-proyect.component';
 
-
 @NgModule({
   declarations: [
     CreateCompanyComponent,
     CreateMethodologyComponent,
-    CreateProyectComponent
+    CreateProyectComponent,
+    
   ],
   imports: [
+    
     CommonModule,
-    CompanyDataRoutingModule
+    CompanyDataRoutingModule,
+    
   ]
 })
 export class CompanyDataModule { }
