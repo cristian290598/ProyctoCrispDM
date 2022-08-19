@@ -7,40 +7,68 @@
             <div class="card_body text-center" style="padding:20px ;">
               <form action="">
                 <h1 class="h3 mb-3 font-weight-normal">Registrar Usuario</h1>
+                <!-- div nombre -->
                 <div style="display:flex; ">
-                  <!-- div nombre -->
                   <div class="form-group">
-                    <input type="text" id="name" name="name" class="form-control" placeholder="Primer Nombre" required>
+                    <input type="text" id="name" name="name" class="form-control" placeholder="Primer nombre" required>
                   </div>
-
                   <div class="form-group" style="padding-left:15px ;">
-                    <input type="text" id="second_name" name="second_name" class="form-control"
-                      placeholder="Second Name">
+                    <input type="text" id="name" name="segundo_nombre" class="form-control"
+                      placeholder="Segundo nombre">
                   </div>
                 </div>
+
                 <!-- div apellidos -->
                 <div style="display:flex; ">
                   <div class="form-group">
-                    <input type="text" id="last_name" name="last_name" class="form-control" placeholder="First_lastName"
-                      required>
+                    <input type="text" id="name" name="primer_apellido" class="form-control" placeholder="Primer apellido" required>
                   </div>
-
                   <div class="form-group" style="padding-left:15px ;">
-                    <input type="text" id="second_last_name" name="second_last_name" class="form-control"
-                      placeholder="First_lastName" required>
+                    <input type="text" id="name" name="segundo_apellido" class="form-control"
+                      placeholder="Segundo apellido" required>
                   </div>
                 </div>
 
+                <!-- div edad-->
+              <div style="display:flex; ">
+                <div class="form-group">
+                  <input type="number" id="action" name="edad" class="form-control" placeholder="¿Cual es tu edad?" required>
+                </div>
+                  <div class="form-group" style="padding-left:15px; ">
+                  <input type="text" id="genero" name="masculino-femenino" class="form-control" placeholder="Genero" required>
+                </div>
+              </div>
+
+                <!-- div email-->
+              <div style="display:flex; ">
                 <div class="form-group">
                   <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
                 </div>
-                <div class="form-group">
-                  <input type="password" id="password" name="password" class="form-control" placeholder="Password"
-                    required>
+                  <div class="form-group" style="padding-left:15px; ">
+                  <input type="password" id="password" name="contraseña" class="form-control" placeholder="Contraseña"required>
                 </div>
-                <div type="submit" class="button btn btn-lg btn-primary btn-block"> Save</div>
+              </div>
+
+                <!-- div rol-->
+              <div style="display:flex; ">
                 <div class="form-group">
-                  <a routerLink="/auth-view/signin" class="form-group"> login</a>
+                  <input type="text" id="rol" name="rol" class="form-control" placeholder="¿Que Rol tienes?" required>
+                </div>
+                  <div class="form-group" style="padding-left:15px; ">
+                  <input type="number" id="cedula" name="cedula" class="form-control" placeholder="Cedula"required>
+                </div>
+              </div>
+
+                <!-- div usuario-->
+              <div style="display:flex; ">
+                <div class="form-group">
+                  <input type="text" id="usuario" name="usuario" class="form-control" placeholder="Usuario" required>
+                </div>
+              </div>
+
+                <div type="submit" class="button btn btn-lg btn-primary btn-block">Registrar</div>
+                <div class="form-group">
+                  <a routerLink="/auth-view/signin" class="form-group"> Acceder</a>
                 </div>
               </form>
             </div>
