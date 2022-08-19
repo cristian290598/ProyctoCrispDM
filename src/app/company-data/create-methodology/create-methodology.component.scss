@@ -35,7 +35,7 @@
 }
 
 .controls {
-    background:#E9EAE1 ;
+    background:white;
     padding:10px;
     border-radius: 5px;
     margin-bottom: 16px;
@@ -45,7 +45,8 @@
 }
 
 .controls-sub{
-    background:#E9EAE1;  
+    background:white ;
+
     border-radius: 5px;
     margin-bottom: 16px;
     border: 1.5px solid gray;
@@ -92,6 +93,16 @@ th,td{
     color: white;   
     font-size:13px;
     float:center
+}
+
+.button-center{
+    width:20%;
+    float:center;
+    background:rgba(127, 82, 173, 0.816);
+    padding: 10px;
+    color: white;   
+    font-size:13px;
+    border-radius: 5px;
 }
 
 

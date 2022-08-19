@@ -1,1 +1,64 @@
 <p>create-proyect works!</p>
+<section id="create">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-8 col-md-7 mx-auto">
+          <div class="card_Signin">
+            <div class="card">
+              <div class="card_body text-center" style="padding:20px ;">
+                <form action="">
+                  <h1 class="h3 mb-3 font-weight-normal">Crear Proyecto</h1>
+                  <!--Nombre Proyecto y Fase-->
+                  <div style="display:flex; ">
+                    <div class="form-group">
+                      <input type="text" id="nombre-proyecto" name="nombre-proyecto" class="form-control" placeholder="Nombre del Proyecto" required>
+                    </div>
+                    <div class="form-group" style="padding-left:20px ;">
+                      <input type="text" id="nombre-fase" name="nombre-fase" class="form-control" placeholder="Nombre de Fase" required>
+                    </div>
+                  </div>
+                  <!--Tarea General y Especifica-->
+                  <div style="display:flex; ">
+                    <div class="form-group">
+                      <input type="text" id="tarea-general" name="tarea-general" class="form-control" placeholder="Tarea General" required>
+                    </div>
+                    <div class="form-group" style="padding-left:20px ;">
+                      <input type="text" id="tarea-especifica" name="tarea-especifica" class="form-control" placeholder="Tarea Especifica" required>
+                    </div>
+                  </div>
+                    <!--div peso, dias estimados y instancia de proceso-->
+                  <div style="display:flex; ">
+                    <div class="form-group">
+                      <input type="number" name="peso" class="form-control" placeholder="Peso" required>
+                    </div>
+                    <div class="form-group" style="padding-left:10px ;">
+                      <input type="number" id="dias-estimados" name="dias-estimados" class="form-control" placeholder="Dias Estimados" required>
+                    </div>
+                   <div class="form-group" style="padding-left:10px ;">
+                      <input type="number" id="instancia-proceso" name="instancia-proceso" class="form-control" placeholder="Instancia de proceso" required>
+                    </div>
+                  </div>
+                    <!-- div Fecha estimada y fecha de inicio-->
+                  <div style="display:flex; ">
+                    <div class="form-group">
+                     <input type="date" id="fecha-inicio" name="fecha-inicio" class="form-control" required>
+                    </div>
+                    <label for="start">Fecha Estimada:</label>
+                    <div class="form-group" style="padding-left:10px ;">
+                      <input type="date" id="fecha-estimada" name="fecha-estimada" class="form-control" required>
+                    </div>
+                  </div>
+  
+                  <div type="submit" class="button btn btn-lg btn-primary btn-block">Crear</div>
+                  <div class="form-group">
+                    <a routerLink="/auth-view/signin" class="form-group"> Acceder</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
