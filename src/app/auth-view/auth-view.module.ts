@@ -6,7 +6,7 @@ import { RegisterUserComponent } from './register-user/register-user.component';
 import { SigninComponent } from './signin/signin.component';
 import { VerifiEmailComponent } from './verifi-email/verifi-email.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +18,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
   imports: [
     CommonModule,
     AuthViewRoutingModule, 
-    
+    FormsModule
   ]
 })
 export class AuthViewModule { }

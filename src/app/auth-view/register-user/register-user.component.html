@@ -1,52 +1,35 @@
 <section id="register">
   <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-8 col-md-7 mx-auto">
-        <div class="card_Signin">
-          <div class="card ">
-            <div class="card_body text-center" style="padding:20px ;">
-              <form action="">
-                <h1 class="h3 mb-3 font-weight-normal">REGISTER</h1>
-                <div style="display:flex; ">
-                  <!-- div nombre -->
-                  <div class="form-group">
-                    <input type="text" id="name" name="name" class="form-control" placeholder="First Name" required>
-                  </div>
 
-                  <div class="form-group" style="padding-left:15px ;">
-                    <input type="text" id="second_name" name="second_name" class="form-control"
-                      placeholder="Second Name">
-                  </div>
-                </div>
-                <!-- div apellidos -->
-                <div style="display:flex; ">
-                  <div class="form-group">
-                    <input type="text" id="last_name" name="last_name" class="form-control" placeholder="First_lastName"
-                      required>
-                  </div>
+    <div class="div-buttons">
+      <h1>REGISTRAR USUARIO</h1>
+      <button class="buttons" (click)="registrar()">Registrar Usuario</button>
+      <button class="buttons">Crear Nuevo Usuario</button>
+      <button class="buttons">Aplica para varias empresas</button>
+    </div>
 
-                  <div class="form-group" style="padding-left:15px ;">
-                    <input type="text" id="second_last_name" name="second_last_name" class="form-control"
-                      placeholder="First_lastName" required>
-                  </div>
-                </div>
+    <div class="izq-div">
+      <input class="control" type="text" [(ngModel)]="first_name" name="first_name" placeholder=" Primer Nombre"
+        required>
+      <input class="control" type="text" [(ngModel)]="second_name" name="second_name" placeholder=" Segundo Nombre">
+      <input class="control" type="number" placeholder="cédula" required>
+      <select class="control" [(ngModel)]="selection_rol" name="selection_rol" required> {{selection_rol}}
+        <option value="Analista">Analista</option>
+        <option value="Desarrollador">Desarrollador</option>
+        <option value="Arquitecto de datos">Arquitecto de datos</option>
+      </select>
+      <input class="control" type="email" [(ngModel)]="email_company" name="email_company" placeholder="Correo empresarial" required>
+    </div>
 
-                <div class="form-group">
-                  <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
-                </div>
-                <div class="form-group">
-                  <input type="password" id="password" name="password" class="form-control" placeholder="Password"
-                    required>
-                </div>
-                <div type="submit" class="button btn btn-lg btn-primary btn-block"> Save</div>
-                <div class="form-group">
-                  <a routerLink="/auth-view/signin" class="form-group"> login</a>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="der-div">
+      <input class="control" type="text" [(ngModel)]="first_surname" name="first_surname" placeholder="Primer apellido" required>
+      <input class="control" type="text" [(ngModel)]="second_surname" name="second_surname" placeholder="Segundo apellido" required>
+      <select class="control" [(ngModel)]="selection_gender" name="selection_gender"  required > {{selection_gender}}
+        <option value="Maculino">Masculino</option>
+        <option value="Femenino">Femenino</option>
+      </select>
+      <input class="control" type="date" [(ngModel)]="birth_date" name="birth_date" placeholder="fecha de nacimiento" required>
+      <input class="control" type="text" [(ngModel)]="password_company" name="password_company" placeholder="contraseña empresarial" required>
     </div>
   </div>
 </section>

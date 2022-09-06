@@ -3,18 +3,21 @@
     <div class="row">
       <div class="col-xs-12 col-sm-8 col-md-6 mx-auto">
         <div class="card_Signin">
-          <div class="card " >
+          <div class="card ">
             <div class="card_body text-center" style="padding:20px ;">
-              <form >
+              <form>
                 <h1 class="h3 mb-3 font-weight-normal">LOGIN</h1>
                 <div class="form-group">
-                  <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                  <input type="email" class="form-control" placeholder="Email" required [(ngModel)]="this.email"
+                    name="email">
+
                 </div>
                 <div class="form-group">
-                  <input type="password" id="password" name="password" class="form-control" placeholder="Password"
-                    required>
+                  <input type="password" class="form-control" placeholder="Contraseña" required
+                    [(ngModel)]="this.password" name="password">
                 </div>
-                <div type="submit" class="button btn btn-lg btn-primary btn-block"> Ingresar</div>
+                <button type="submit" class="button btn btn-lg btn-primary btn-block " (click)="ingresarDatos()">
+                  Iniciar sesión</button>
                 <div style="padding:10px ;"> <a routerLink="/auth-view/forgot-password">Olvidó su contraseña</a></div>
               </form>
             </div>

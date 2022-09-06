@@ -1,8 +1,4 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
+
 .principal{
     background: gray;
     border:solid black;
@@ -88,7 +84,7 @@ th,td{
 .button{
     margin:1rem;
     width:80%;
-    background:rgba(127, 82, 173, 0.816);
+    background:rgba(142, 89, 195, 0.816);
     padding: 10px;
     color: white;   
     font-size:13px;
@@ -104,5 +100,3 @@ th,td{
     font-size:13px;
     border-radius: 5px;
 }
-
-

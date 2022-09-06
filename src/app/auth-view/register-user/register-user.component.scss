@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(230, 220, 220);
+    
+}
+
+.div-buttons{
+    align-items: center;
+    display: block;
+    width: 25%;
+    
+}
+.izq-div{
+    display: block;
+    width: 40%;
+}
+.der-div{
+    width: 40%;
+}
+
+.control{
+    width: 80%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.buttons{
+    padding: 8px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border: 2px solid #970c97 ;
+    background: #aa83aa ;
+    
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    text-align: center;
+}
+
